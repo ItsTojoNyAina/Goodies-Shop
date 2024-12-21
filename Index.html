@@ -29,7 +29,10 @@
 
         <div>
             <h2><i class="fas fa-money-bill-wave icon"></i>Paiement</h2>
-            <button class="resButton">Remise</button>
+            <div class="checkbox-wrapper-1">
+              <input id="example-1" class="substituted" type="checkbox" aria-hidden="true" />
+              <label for="example-1">Remise</label>
+            </div>            
             <input type="number" id="customerMoney" placeholder="Argent du client (MGA)" onchange="calculateChange()">
             <div class="change" id="change"></div>
         </div>
@@ -38,3 +41,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
+
